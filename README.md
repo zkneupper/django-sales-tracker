@@ -1,10 +1,6 @@
 # Create a Sales Tracker App
 
-The app will be powered by Django on the backend React.js on the frontent.
-
-Created a Django REST API based on the documentation from here, [Django REST APPI](https://www.django-rest-framework.org/).
-
- Also downloaded [Postman](https://www.getpostman.com/), to test the API both POST and GET requests. 
+The app will be powered by Django on the backend and React.js on the frontend. A Django REST API based on the documentation from here, [Django REST APPI](https://www.django-rest-framework.org/) was created. Also download [Postman](https://www.getpostman.com/), to test the API; for POST, GET, and other requests. 
 
  ## Creating the Virtual Environment
 
