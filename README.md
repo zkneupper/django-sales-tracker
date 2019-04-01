@@ -2,6 +2,13 @@
 
 Django will power the app on the backend and React.js on the frontend. A Django REST API based on the documentation from here, [Django REST API](https://www.django-rest-framework.org/) was created. Also download [Postman](https://www.getpostman.com/), to test the API; for POST, GET, and other requests. This application built with heavy reference to the following [Django REST with React](https://www.valentinog.com/blog/tutorial-api-django-rest-react/#Django_REST_with_React_Django_and_React_together) tutorial.
 
+## Untrack Files in Git with .gitignore
+
+1.  Commit all changes
+2.  Remove everything from the repository - `git rm -r --cached`
+3.  Re-add everything - `git add .`
+4.  Commit - `git commit -m ".gitignore fix"`
+
 ## Creating the Virtual Environment
 
 Use the following CLI actions:
