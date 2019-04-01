@@ -1,0 +1,40 @@
+{
+  "name": "django-sales-tracker",
+  "version": "1.0.0",
+  "description": "The app will be powered by Django on the backend and React.js on the frontend. A Django REST API based on the documentation from here, [Django REST APPI](https://www.django-rest-framework.org/) was created. Also download [Postman](https://www.getpostman.com/), to test the API; for POST, GET, and other requests.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./salesproject/frontend/src/index.js -o ./salesproject/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./salesproject/frontend/src/index.js -o ./salesproject/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwame561/django-sales-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwame561/django-sales-tracker/issues"
+  },
+  "homepage": "https://github.com/kwame561/django-sales-tracker#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  }
+}
