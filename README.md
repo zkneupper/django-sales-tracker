@@ -5,7 +5,7 @@ Django will power the app on the backend and React.js on the frontend. A Django 
 ## Untrack Files in Git with .gitignore
 
 1.  Commit all changes
-2.  Remove everything from the repository - `git rm -r --cached`
+2.  Remove everything from the repository - `git rm -r --cached .`
 3.  Re-add everything - `git add .`
 4.  Commit - `git commit -m ".gitignore fix"`
 
