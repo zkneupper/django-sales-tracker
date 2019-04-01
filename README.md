@@ -36,4 +36,6 @@ There are multiple ways to run a lightweight development Web server on yuor loca
 - Redux - For state management within the app.
   - Redux-Thunk - A middleware that teaches `Redux` how to deal with functions as actions.
 - Webpack - JavaScript module bundler.
+- Axios - Manage HTTP requests.
 - Django - Python Web framework used mainly for server-side development (including REST api) as well as, URL routing, a template engine, and for database schema migrations [click here for more on Django](https://www.djangoproject.com/).
+  - SQLite - Embedded SQL Database engine.
