@@ -30,6 +30,8 @@ This file is used mainly to define the project's dependencies and where to get t
 
 There are multiple ways to run a lightweight development Web server on yuor local machine. For this project I used the command line `python manage.py runserver` within the project folder/directory. The default IP address **127.0.0.1** runs on port 8000. However, to make the development server viewable to other machines on the network, simple use **0.0.0.0** as the IP address. The command line would look like this, `python manage.py runserver 0.0.0.0:8000`.
 
+Also, to run webpack from the command line just type `npm run dev`. If you set your scripts to run the develoment server to `webpack --mode development --watch`, then webpack will just watch the files while the server is running.
+
 ## Built With...
 
 - React - Frontend JavaScript library.
